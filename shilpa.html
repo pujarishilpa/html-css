@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://img.freepik.com/free-photo/alphabet-beads-pink-background_53876-101476.jpg?w=360&t=st=1670079689~exp=1670080289~hmac=1b7ac88e0f7324099c8e459983e5f6428df0e4f8f7a88db9087ec2687259cb74");
+    background-size: cover;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    padding: 20px;
+}
+
+.main-heading {
+    color: black;
+    font-family: "normal";
+    font-size: 40PX;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.paragraph {
+    color: #1a1919;
+    font-size: 20px;
+}
+
+.button {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    height: 36px;
+    width: 145px;
+    background-color: pink;
+    color: black;
+    border-radius: 35px;
+    border-width: 2px;
+}
+
+.favourite-places-bg-container {
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148907303.jpg?w=740&t=st=1670414502~exp=1670415102~hmac=e58d3c072f283b879500b6a85adb66d0c09978fb9b6c55f837fed7a6d47cd405");
+    height: 100vh;
+    background-size: cover;
+}
+
+.nouns-heading {
+    color: #0f0e46;
+    font-family: "bree Serif";
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card-container {
+    background-color: pink;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.card-heading {
+    color: #0f0e46;
+    font-family: "Bree Serif";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.card-description {
+    color: black;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.card-image {
+    width: 80px;
+    height: 100px;
+}
+
+.buttonnoun {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://img.freepik.com/premium-photo/pink-spring-background_134070-31.jpg?w=740");
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.detailed-view-card-container {
+    background-color: pink;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 20px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: black;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.detailed-view-card-text-container {
+    padding: 80px;
+}
+
+.buttondefinition {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://img.freepik.com/premium-photo/pink-spring-background_134070-31.jpg?w=740");
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.detailed-view-card-container {
+    background-color: pink;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 25px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: black;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://img.freepik.com/premium-photo/pink-spring-background_134070-31.jpg?w=740");
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.detailed-view-card-container {
+    background-color: pink;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 20px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: black;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.detailed-view-card-text-container {
+    padding: 70px;
+}
+
+.pandc {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.detailed-view-card-text-container {
+    padding: 70px;
+}
+
+.buttontypes {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://img.freepik.com/premium-photo/pink-spring-background_134070-31.jpg?w=740");
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.detailed-view-card-container {
+    background-color: pink;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 20px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: black;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.detailed-view-card-text-container {
+    padding: 70px;
+}
+
+.candu {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin: 5px;
+}
+    </style>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-heading">
+                    NOUNS
+                </h1>
+                <p class="paragraph">
+                    Tap to Learn.
+                </p>
+                <button class="button" onclick="display('sectionnoun')"> Get Started </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionnoun">
+        <div class="favourite-places-bg-container">
+            <h1 class="nouns-heading"> NOUNS </h1>
+            <div class="card-container d-flex flex-row" onclick="display('sectiondefinitionofnoun')">
+                <div>
+                    <h1 class="card-heading"> Definition </h1>
+                    <p class="card-description">
+                        The words in green refer to the names of persons, place, thing, actions and concepts.
+                    </p>
+                </div>
+            </div>
+            <div class="card-container d-flex flex-row" onclick="display('sectiontypesofnoun')">
+                <div>
+                    <h1 class="card-heading"> Types Of Nouns </h1>
+                    <p class="card-description">
+                        Nouns may be classified in many different ways.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card-container d-flex flex-row" onclick="display('sectionpandc')">
+                <div>
+                    <h1 class="card-heading"> Proper nouns & Common nouns </h1>
+                    <p class="card-description">
+                        Tap to learn about Proper and Common nouns.
+                    </p>
+                </div>
+            </div>
+            <div class="card-container d-flex flex-row" onclick="display('sectioncandu')">
+                <div>
+                    <h1 class="card-heading"> Countable nouns & Uncountable nouns </h1>
+                    <p class="card-description">
+                        Tap to learn about Countable and Uncountable nouns.
+                    </p>
+                </div>
+            </div>
+            <button class="buttonnoun d-flex flex-row" onclick="display('sectionHome')">
+                Back
+            </button>
+        </div>
+    </div>
+    <div id="sectiondefinitionofnoun">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading"> Definition</h1>
+            <div class="detailed-view-card-container">
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading"> NOUN </h1>
+                    <p class="detailed-view-card-description">
+                        The names of persons, places, things, actions and concepts.
+                        are called naming words, or more specifically, nouns. A noun answers the question,
+                        'who is it?' or 'what is it?'
+                    </p>
+                </div>
+            </div>
+            <button class="buttondefinition" onclick="display('sectionnoun')"> Back </button>
+        </div>
+    </div>
+    <div id="sectiontypesofnoun">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading"> </h1>
+            <div class="detailed-view-card-container">
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading"> Types Of Nouns </h1>
+                    <p class="detailed-view-card-description">
+                        Nouns may be classified in many different ways. In this , we
+                        will look at two ways of categorising them : as proper and common Nouns, and as countable and
+                        uncountable Nouns.
+                    </p>
+                </div>
+
+            </div>
+            <button class="buttontypes" onclick="display('sectionnoun')"> Back </button>
+        </div>
+    </div>
+    <div id="sectionpandc">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading"> Definitions & Examples </h1>
+            <div class="detailed-view-card-container">
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading"> PROPER NOUN :-</h1>
+                    <p class="detailed-view-card-description">
+                        A proper noun is the name of a particular person, place or thing. They
+                        are always written with a capital letter. For example, Manmohan, Sri Lanka, Osmania
+                        University, Noble Prize, Deccan Chronical, Taj Mahal, Mars, Kannada, Holi.
+                    </p>
+                    <h1 class="detailed-view-card-heading"> COMMON NOUN :-</h1>
+                    <p class="detailed-view-card-description">
+                        Common nouns are all other nouns that are not categorised as proper nouns.
+                        They may refer to concrete objects, abstract ideas or actions. For example
+                        person, country, institution, award, newspaper, mausolemum, planet, festival,
+                        independence, flattery.
+                    </p>
+                </div>
+            </div>
+            <button class="pandc" onclick="display('sectionnoun')"> Back </button>
+        </div>
+    </div>
+    <div id="sectioncandu">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading"> Definitions & Examples </h1>
+            <div class="detailed-view-card-container">
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading"> COUNTABLE NOUN :-</h1>
+                    <p class="detailed-view-card-description">
+                        Countable nouns consits of things which can be recognised and counted
+                        as individual items. They usually have a singular and plural form. For
+                        example, book, books; mouse, mice; person, people.
+                    </p>
+                    <h1 class="detailed-view-card-heading"> UNCOUNTABLE NOUN :-</h1>
+                    <p class="detailed-view-card-description">
+                        Uncountable nouns consits of substance (such as materials, liquid, powder)
+                        not usually considered as their individual components. For example, salt,
+                        cotton, sand. They may refer to category of things (for example, furniture,
+                        information, baggage), or to abstact concepts (for example, youth, danger,
+                        beauty).
+                    </p>
+                </div>
+            </div>
+            <button class="candu" onclick="display('sectionnoun')"> Back </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
